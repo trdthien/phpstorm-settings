@@ -14,23 +14,11 @@
         </selected-state>
       </profile-state>
     </entry>
-    <entry key="unnamed">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>BashSupport</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="PhpRefactoringSettings">
     <option name="EXTRACT_METHOD_DEFAULT_VISIBILITY" value="private" />
     <option name="EXTRACT_FIELD_DEFAULT_VISIBILITY" value="protected" />
+    <option name="MOVE_CLASS_SEARCH_IN_COMMENTS_AND_STRINGS" value="true" />
+    <option name="MOVE_CLASS_SEARCH_IN_TEXT_OCCURRENCES" value="true" />
   </component>
 </application>

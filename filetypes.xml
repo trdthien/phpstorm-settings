@@ -4,6 +4,8 @@
       <mapping pattern="Dockerfile.*" type="Dockerfile" />
       <mapping pattern="crontab.conf" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
+      <mapping pattern="*.yaml.dist" type="YAML" />
+      <mapping pattern="*.yml.dist" type="YAML" />
       <mapping pattern="Vagrantfile" type="YAML" />
     </extensionMap>
   </component>

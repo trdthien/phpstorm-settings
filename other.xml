@@ -63,6 +63,10 @@
     <option name="SEND_ENVIRONMENT_VARIABLES_TO_SERVER" value="false" />
     <option name="SHOW_PATH" value="true" />
   </component>
+  <component name="NodeLocalInterpreterManager">
+    <node-interpreter path="/usr/local/bin/node" version="5.7.0" last-modified="1477500567000" />
+    <node-interpreter path="/usr/local/Cellar/node/5.7.0/bin/node" version="5.7.0" last-modified="1477500567000" />
+  </component>
   <component name="PhpRefactoringSettings">
     <option name="EXTRACT_METHOD_DEFAULT_VISIBILITY" value="private" />
     <option name="EXTRACT_FIELD_DEFAULT_VISIBILITY" value="protected" />

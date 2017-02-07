@@ -11,8 +11,8 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="vagrant:///Users/tritran/webapp/8BitRockr/sabu/base-frontend/deployment/usr/bin/php" id="012553d1-d2c2-43bb-897a-f5767c6e635c" name="virt.sabu.de" debugger_id="php.debugger.XDebug">
-        <remote_data VAGRANT_FOLDER="$USER_HOME$/webapp/8BitRockr/sabu/base-frontend/deployment" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter home="vagrant:///Users/tritran/webapp/sabu/base-frontend/deployment/usr/bin/php" id="012553d1-d2c2-43bb-897a-f5767c6e635c" name="virt.sabu.de" debugger_id="php.debugger.XDebug">
+        <remote_data VAGRANT_FOLDER="$USER_HOME$/webapp/sabu/base-frontend/deployment" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>
@@ -338,7 +338,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="012553d1-d2c2-43bb-897a-f5767c6e635c" load_method="PHPUNIT_PHAR" custom_loader_path="/var/www/virt.sabu.de/bin/phpunit" phpunit_phar_path="/var/www/virt.sabu.de/phpunit.phar" />
+      <phpunit_by_interpreter interpreter_id="012553d1-d2c2-43bb-897a-f5767c6e635c" load_method="CUSTOM_LOADER" custom_loader_path="/var/www/virt.sabu.de/bin/phpunit" phpunit_phar_path="/var/www/virt.sabu.de/phpunit.phar" />
     </phpunit_settings>
   </component>
 </application>

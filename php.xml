@@ -11,8 +11,8 @@
   </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="vagrant:///Users/tritran/webapp/8BitRockstars/Sabu/base-frontend/deployment/usr/bin/php" id="012553d1-d2c2-43bb-897a-f5767c6e635c" name="virt.sabu.de" debugger_id="php.debugger.XDebug">
-        <remote_data VAGRANT_FOLDER="$USER_HOME$/webapp/8BitRockstars/Sabu/base-frontend/deployment" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter home="vagrant:///Users/tritran/webapp/sabu/base-frontend/deployment/usr/bin/php" id="012553d1-d2c2-43bb-897a-f5767c6e635c" name="virt.sabu.de" debugger_id="php.debugger.XDebug">
+        <remote_data VAGRANT_FOLDER="$USER_HOME$/webapp/sabu/base-frontend/deployment" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
     </interpreters>
   </component>

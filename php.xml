@@ -4,18 +4,6 @@
       <MessDetectorConfiguration />
     </phpmd_settings>
   </component>
-  <component name="PhpCodeSniffer">
-    <phpcs_settings>
-      <PhpCSConfiguration standards="MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/.composer/vendor/bin/phpcs" />
-    </phpcs_settings>
-  </component>
-  <component name="PhpInterpreters">
-    <interpreters>
-      <interpreter home="vagrant:///Users/tritran/webapp/8BitRockr/sabu/base-frontend/deployment/usr/bin/php" id="012553d1-d2c2-43bb-897a-f5767c6e635c" name="virt.sabu.de" debugger_id="php.debugger.XDebug">
-        <remote_data VAGRANT_FOLDER="$USER_HOME$/webapp/8BitRockr/sabu/base-frontend/deployment" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
-      </interpreter>
-    </interpreters>
-  </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="virt.sabu.de">

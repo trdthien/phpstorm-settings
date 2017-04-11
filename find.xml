@@ -9,18 +9,18 @@
       <mask>*.jsp</mask>
       <mask>*.xml</mask>
       <mask>*.java</mask>
-      <mask>*.js</mask>
       <mask>*.as</mask>
       <mask>*.css</mask>
       <mask>*.mxml</mask>
-      <mask>*.php</mask>
       <mask>*.ph</mask>
       <mask>*.p</mask>
       <mask>*.s</mask>
-      <mask>*.</mask>
       <mask>*.j</mask>
-      <mask>*.jso</mask>
       <mask>*.json</mask>
+      <mask>*.jso</mask>
+      <mask>*.js</mask>
+      <mask>*.</mask>
+      <mask>*.php</mask>
     </recentFileMasks>
   </component>
 </application>

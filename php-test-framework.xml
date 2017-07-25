@@ -1,6 +1,24 @@
 <application>
+  <component name="PhpTestFrameworkSettings">
+    <test_tools>
+      <tool tool_name="Codeception">
+        <settings>
+          <configurations>
+            <configuration_by_sdk interpreter_id="0324eb11-71e5-4b2f-b202-05b492c5e76c" executable_path="/var/www/virt.dodenhof.de/bin/codecept" />
+          </configurations>
+        </settings>
+      </tool>
+    </test_tools>
+  </component>
   <component name="PhpTestFrameworkVersionCache">
     <tools_cache>
+      <tool tool_name="Codeception">
+        <cache>
+          <versions>
+            <info id="interpreter-0324eb11-71e5-4b2f-b202-05b492c5e76c" version="2.2.12" />
+          </versions>
+        </cache>
+      </tool>
       <tool tool_name="PHPUnit">
         <cache>
           <versions>

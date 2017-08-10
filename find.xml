@@ -23,9 +23,13 @@
       <mask>*.ht</mask>
       <mask>*.htm</mask>
       <mask>*.html</mask>
-      <mask>*y</mask>
-      <mask>*ym</mask>
       <mask>*yml</mask>
+      <mask>*ym</mask>
+      <mask>*y</mask>
+      <mask>*</mask>
+      <mask>*x</mask>
+      <mask>*xm</mask>
+      <mask>*xml</mask>
     </recentFileMasks>
   </component>
 </application>

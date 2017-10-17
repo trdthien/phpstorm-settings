@@ -1,7 +1,7 @@
 <application>
   <component name="MessDetector">
     <phpmd_settings>
-      <MessDetectorConfiguration />
+      <phpmd_by_interpreter interpreter_id="0324eb11-71e5-4b2f-b202-05b492c5e76c" tool_path="/var/www/virt.dodenhof.de/bin/phpcs" />
     </phpmd_settings>
   </component>
   <component name="PhpCodeSniffer">

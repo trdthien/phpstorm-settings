@@ -24,7 +24,6 @@
           <versions>
             <info id="interpreter-0324eb11-71e5-4b2f-b202-05b492c5e76c" version="5.6.8" />
             <info id="interpreter-3340c491-6966-4296-bb45-db1f7c8defda" version="5.6.8" />
-            <info id="interpreter-a44d8c13-d51d-4d27-98d7-36ba5ab71b38" version="5.6.8" />
           </versions>
         </cache>
       </tool>

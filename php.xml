@@ -18,7 +18,7 @@
       <interpreter home="vagrant:///Users/terry/base-frontend/deployment/usr/bin/php" id="a44d8c13-d51d-4d27-98d7-36ba5ab71b38" name="virt.sabu.de" debugger_id="php.debugger.XDebug">
         <remote_data VAGRANT_FOLDER="$USER_HOME$/base-frontend/deployment" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
-      <interpreter home="/usr/local/Cellar/php70/7.0.14_7/bin/php" id="e76df9ab-f013-45d9-ba16-8f861cd7a235" name="PHP 7" debugger_id="php.debugger.XDebug" />
+      <interpreter home="/usr/local/Cellar/php70/7.0.25_17/bin/php" id="e76df9ab-f013-45d9-ba16-8f861cd7a235" name="PHP 7" debugger_id="php.debugger.XDebug" />
       <interpreter home="vagrant:///Users/terry/www.koffer24.de/base-frontend/deployment/usr/bin/php" id="3340c491-6966-4296-bb45-db1f7c8defda" name="www.koffer24.de" debugger_id="php.debugger.XDebug">
         <remote_data VAGRANT_FOLDER="$USER_HOME$/www.koffer24.de/base-frontend/deployment" INTERPRETER_PATH="/usr/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
       </interpreter>
@@ -27,7 +27,7 @@
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="www.dodenhof.de">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.0" path_separator=":" remote_host="10.0.2.2 57536 22" version="7.0.15-1+deb.sury.org~trusty+1">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.0" path_separator=":" remote_host="10.0.2.2" version="7.0.15-1+deb.sury.org~trusty+1">
           <additional_php_ini>/etc/php/7.0/cli/conf.d/10-mysqlnd.ini, /etc/php/7.0/cli/conf.d/10-opcache.ini, /etc/php/7.0/cli/conf.d/10-pdo.ini, /etc/php/7.0/cli/conf.d/15-xml.ini, /etc/php/7.0/cli/conf.d/20-bcmath.ini, /etc/php/7.0/cli/conf.d/20-calendar.ini, /etc/php/7.0/cli/conf.d/20-ctype.ini, /etc/php/7.0/cli/conf.d/20-curl.ini, /etc/php/7.0/cli/conf.d/20-dom.ini, /etc/php/7.0/cli/conf.d/20-exif.ini, /etc/php/7.0/cli/conf.d/20-fileinfo.ini, /etc/php/7.0/cli/conf.d/20-ftp.ini, /etc/php/7.0/cli/conf.d/20-gd.ini, /etc/php/7.0/cli/conf.d/20-gettext.ini, /etc/php/7.0/cli/conf.d/20-iconv.ini, /etc/php/7.0/cli/conf.d/20-intl.ini, /etc/php/7.0/cli/conf.d/20-json.ini, /etc/php/7.0/cli/conf.d/20-mbstring.ini, /etc/php/7.0/cli/conf.d/20-mysqli.ini, /etc/php/7.0/cli/conf.d/20-pdo_mysql.ini, /etc/php/7.0/cli/conf.d/20-phar.ini, /etc/php/7.0/cli/conf.d/20-posix.ini, /etc/php/7.0/cli/conf.d/20-readline.ini, /etc/php/7.0/cli/conf.d/20-redis.ini, /etc/php/7.0/cli/conf.d/20-shmop.ini, /etc/php/7.0/cli/conf.d/20-simplexml.ini, /etc/php/7.0/cli/conf.d/20-soap.ini, /etc/php/7.0/cli/conf.d/20-sockets.ini, /etc/php/7.0/cli/conf.d/20-sysvmsg.ini, /etc/php/7.0/cli/conf.d/20-sysvsem.ini, /etc/php/7.0/cli/conf.d/20-sysvshm.ini, /etc/php/7.0/cli/conf.d/20-tideways.ini, /etc/php/7.0/cli/conf.d/20-tokenizer.ini, /etc/php/7.0/cli/conf.d/20-wddx.ini, /etc/php/7.0/cli/conf.d/20-xdebug.ini, /etc/php/7.0/cli/conf.d/20-xmlreader.ini, /etc/php/7.0/cli/conf.d/20-xmlwriter.ini, /etc/php/7.0/cli/conf.d/20-xsl.ini, /etc/php/7.0/cli/conf.d/20-zip.ini</additional_php_ini>
           <configuration_file>/etc/php/7.0/cli/php.ini</configuration_file>
           <configuration_options>
@@ -408,13 +408,28 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP 7">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php70/7.0.14_7/bin/php-cgi" php_cli="/usr/local/Cellar/php70/7.0.14_7/bin/php" path_separator=":" version="7.0.14">
-          <additional_php_ini>/usr/local/etc/php/7.0/conf.d/ext-intl.ini, /usr/local/etc/php/7.0/conf.d/ext-xdebug.ini</additional_php_ini>
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php70/7.0.25_17/bin/php-cgi" php_cli="/usr/local/Cellar/php70/7.0.25_17/bin/php" path_separator=":" version="7.0.25">
+          <additional_php_ini>/usr/local/etc/php/7.0/conf.d/ext-apcu.ini, /usr/local/etc/php/7.0/conf.d/ext-intl.ini, /usr/local/etc/php/7.0/conf.d/ext-opcache.ini, /usr/local/etc/php/7.0/conf.d/ext-xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.0/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
             <configuration_option name="allow_url_fopen" value="1" />
             <configuration_option name="allow_url_include" value="" />
+            <configuration_option name="apc.coredump_unmap" value="0" />
+            <configuration_option name="apc.enable_cli" value="1" />
+            <configuration_option name="apc.enabled" value="1" />
+            <configuration_option name="apc.entries_hint" value="4096" />
+            <configuration_option name="apc.gc_ttl" value="3600" />
+            <configuration_option name="apc.mmap_file_mask" value="/tmp/apc.mGSahd" />
+            <configuration_option name="apc.preload_path" value="" />
+            <configuration_option name="apc.serializer" value="php" />
+            <configuration_option name="apc.shm_segments" value="1" />
+            <configuration_option name="apc.shm_size" value="64M" />
+            <configuration_option name="apc.slam_defense" value="1" />
+            <configuration_option name="apc.smart" value="0" />
+            <configuration_option name="apc.ttl" value="7200" />
+            <configuration_option name="apc.use_request_time" value="1" />
+            <configuration_option name="apc.writable" value="/tmp" />
             <configuration_option name="arg_separator.input" value="&amp;" />
             <configuration_option name="arg_separator.output" value="&amp;" />
             <configuration_option name="assert.active" value="1" />
@@ -462,7 +477,7 @@
             <configuration_option name="exif.encode_unicode" value="ISO-8859-15" />
             <configuration_option name="exit_on_timeout" value="0" />
             <configuration_option name="expose_php" value="1" />
-            <configuration_option name="extension_dir" value="/usr/local/Cellar/php70/7.0.14_7/lib/php/extensions/no-debug-non-zts-20151012" />
+            <configuration_option name="extension_dir" value="/usr/local/Cellar/php70/7.0.25_17/lib/php/extensions/no-debug-non-zts-20151012" />
             <configuration_option name="file_uploads" value="1" />
             <configuration_option name="filter.default" value="unsafe_raw" />
             <configuration_option name="filter.default_flags" value="" />
@@ -541,6 +556,39 @@
             <configuration_option name="odbc.defaultlrl" value="4096" />
             <configuration_option name="odbc.max_links" value="-1" />
             <configuration_option name="odbc.max_persistent" value="-1" />
+            <configuration_option name="opcache.blacklist_filename" value="" />
+            <configuration_option name="opcache.consistency_checks" value="0" />
+            <configuration_option name="opcache.dups_fix" value="0" />
+            <configuration_option name="opcache.enable" value="1" />
+            <configuration_option name="opcache.enable_cli" value="0" />
+            <configuration_option name="opcache.enable_file_override" value="0" />
+            <configuration_option name="opcache.error_log" value="" />
+            <configuration_option name="opcache.fast_shutdown" value="0" />
+            <configuration_option name="opcache.file_cache" value="" />
+            <configuration_option name="opcache.file_cache_consistency_checks" value="1" />
+            <configuration_option name="opcache.file_cache_only" value="0" />
+            <configuration_option name="opcache.file_update_protection" value="2" />
+            <configuration_option name="opcache.force_restart_timeout" value="180" />
+            <configuration_option name="opcache.huge_code_pages" value="0" />
+            <configuration_option name="opcache.inherited_hack" value="1" />
+            <configuration_option name="opcache.interned_strings_buffer" value="4" />
+            <configuration_option name="opcache.lockfile_path" value="/tmp" />
+            <configuration_option name="opcache.log_verbosity_level" value="1" />
+            <configuration_option name="opcache.max_accelerated_files" value="2000" />
+            <configuration_option name="opcache.max_file_size" value="0" />
+            <configuration_option name="opcache.max_wasted_percentage" value="5" />
+            <configuration_option name="opcache.memory_consumption" value="64" />
+            <configuration_option name="opcache.optimization_level" value="0x7FFFBFFF" />
+            <configuration_option name="opcache.preferred_memory_model" value="" />
+            <configuration_option name="opcache.protect_memory" value="0" />
+            <configuration_option name="opcache.restrict_api" value="" />
+            <configuration_option name="opcache.revalidate_freq" value="2" />
+            <configuration_option name="opcache.revalidate_path" value="0" />
+            <configuration_option name="opcache.save_comments" value="1" />
+            <configuration_option name="opcache.use_cwd" value="1" />
+            <configuration_option name="opcache.validate_permission" value="0" />
+            <configuration_option name="opcache.validate_root" value="0" />
+            <configuration_option name="opcache.validate_timestamps" value="1" />
             <configuration_option name="open_basedir" value="" />
             <configuration_option name="openssl.cafile" value="" />
             <configuration_option name="openssl.capath" value="" />
@@ -556,7 +604,7 @@
             <configuration_option name="phar.require_hash" value="1" />
             <configuration_option name="post_max_size" value="8M" />
             <configuration_option name="precision" value="14" />
-            <configuration_option name="realpath_cache_size" value="16K" />
+            <configuration_option name="realpath_cache_size" value="4096K" />
             <configuration_option name="realpath_cache_ttl" value="120" />
             <configuration_option name="register_argc_argv" value="1" />
             <configuration_option name="report_memleaks" value="1" />
@@ -701,6 +749,8 @@
             <extension name="Reflection" />
             <extension name="SPL" />
             <extension name="SimpleXML" />
+            <extension name="Zend OPcache" />
+            <extension name="apcu" />
             <extension name="bcmath" />
             <extension name="bz2" />
             <extension name="calendar" />
@@ -755,7 +805,7 @@
         </phpinfo>
       </interpreter>
       <interpreter name="www.koffer24.de">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.0" path_separator=":" remote_host="10.0.2.2 52881 22" version="7.0.24-1+ubuntu16.04.1+deb.sury.org+1">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.0" path_separator=":" remote_host="10.0.2.2" version="7.0.24-1+ubuntu16.04.1+deb.sury.org+1">
           <additional_php_ini>/etc/php/7.0/cli/conf.d/10-mysqlnd.ini, /etc/php/7.0/cli/conf.d/10-opcache.ini, /etc/php/7.0/cli/conf.d/10-pdo.ini, /etc/php/7.0/cli/conf.d/15-xml.ini, /etc/php/7.0/cli/conf.d/20-bcmath.ini, /etc/php/7.0/cli/conf.d/20-calendar.ini, /etc/php/7.0/cli/conf.d/20-ctype.ini, /etc/php/7.0/cli/conf.d/20-curl.ini, /etc/php/7.0/cli/conf.d/20-dom.ini, /etc/php/7.0/cli/conf.d/20-exif.ini, /etc/php/7.0/cli/conf.d/20-fileinfo.ini, /etc/php/7.0/cli/conf.d/20-ftp.ini, /etc/php/7.0/cli/conf.d/20-gd.ini, /etc/php/7.0/cli/conf.d/20-gettext.ini, /etc/php/7.0/cli/conf.d/20-iconv.ini, /etc/php/7.0/cli/conf.d/20-igbinary.ini, /etc/php/7.0/cli/conf.d/20-intl.ini, /etc/php/7.0/cli/conf.d/20-json.ini, /etc/php/7.0/cli/conf.d/20-mbstring.ini, /etc/php/7.0/cli/conf.d/20-mysqli.ini, /etc/php/7.0/cli/conf.d/20-pdo_mysql.ini, /etc/php/7.0/cli/conf.d/20-phar.ini, /etc/php/7.0/cli/conf.d/20-posix.ini, /etc/php/7.0/cli/conf.d/20-readline.ini, /etc/php/7.0/cli/conf.d/20-redis.ini, /etc/php/7.0/cli/conf.d/20-shmop.ini, /etc/php/7.0/cli/conf.d/20-simplexml.ini, /etc/php/7.0/cli/conf.d/20-soap.ini, /etc/php/7.0/cli/conf.d/20-sockets.ini, /etc/php/7.0/cli/conf.d/20-sysvmsg.ini, /etc/php/7.0/cli/conf.d/20-sysvsem.ini, /etc/php/7.0/cli/conf.d/20-sysvshm.ini, /etc/php/7.0/cli/conf.d/20-tideways.ini, /etc/php/7.0/cli/conf.d/20-tokenizer.ini, /etc/php/7.0/cli/conf.d/20-wddx.ini, /etc/php/7.0/cli/conf.d/20-xmlreader.ini, /etc/php/7.0/cli/conf.d/20-xmlwriter.ini, /etc/php/7.0/cli/conf.d/20-xsl.ini, /etc/php/7.0/cli/conf.d/20-zip.ini</additional_php_ini>
           <configuration_file>/etc/php/7.0/cli/php.ini</configuration_file>
           <configuration_options>
@@ -1077,7 +1127,7 @@
         </phpinfo>
       </interpreter>
       <interpreter name="virt.sabu.de">
-        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.0" path_separator=":" remote_host="10.0.2.2 50918 22" version="7.0.15-1+deb.sury.org~trusty+1">
+        <phpinfo binary_type="PHP" php_cli="/usr/bin/php7.0" path_separator=":" remote_host="10.0.2.2" version="7.0.15-1+deb.sury.org~trusty+1">
           <additional_php_ini>/etc/php/7.0/cli/conf.d/10-mysqlnd.ini, /etc/php/7.0/cli/conf.d/10-opcache.ini, /etc/php/7.0/cli/conf.d/10-pdo.ini, /etc/php/7.0/cli/conf.d/15-xml.ini, /etc/php/7.0/cli/conf.d/20-bcmath.ini, /etc/php/7.0/cli/conf.d/20-calendar.ini, /etc/php/7.0/cli/conf.d/20-ctype.ini, /etc/php/7.0/cli/conf.d/20-curl.ini, /etc/php/7.0/cli/conf.d/20-dom.ini, /etc/php/7.0/cli/conf.d/20-exif.ini, /etc/php/7.0/cli/conf.d/20-fileinfo.ini, /etc/php/7.0/cli/conf.d/20-ftp.ini, /etc/php/7.0/cli/conf.d/20-gd.ini, /etc/php/7.0/cli/conf.d/20-gettext.ini, /etc/php/7.0/cli/conf.d/20-iconv.ini, /etc/php/7.0/cli/conf.d/20-intl.ini, /etc/php/7.0/cli/conf.d/20-json.ini, /etc/php/7.0/cli/conf.d/20-mbstring.ini, /etc/php/7.0/cli/conf.d/20-mysqli.ini, /etc/php/7.0/cli/conf.d/20-pdo_mysql.ini, /etc/php/7.0/cli/conf.d/20-phar.ini, /etc/php/7.0/cli/conf.d/20-posix.ini, /etc/php/7.0/cli/conf.d/20-readline.ini, /etc/php/7.0/cli/conf.d/20-redis.ini, /etc/php/7.0/cli/conf.d/20-shmop.ini, /etc/php/7.0/cli/conf.d/20-simplexml.ini, /etc/php/7.0/cli/conf.d/20-soap.ini, /etc/php/7.0/cli/conf.d/20-sockets.ini, /etc/php/7.0/cli/conf.d/20-sysvmsg.ini, /etc/php/7.0/cli/conf.d/20-sysvsem.ini, /etc/php/7.0/cli/conf.d/20-sysvshm.ini, /etc/php/7.0/cli/conf.d/20-tideways.ini, /etc/php/7.0/cli/conf.d/20-tokenizer.ini, /etc/php/7.0/cli/conf.d/20-wddx.ini, /etc/php/7.0/cli/conf.d/20-xmlreader.ini, /etc/php/7.0/cli/conf.d/20-xmlwriter.ini, /etc/php/7.0/cli/conf.d/20-xsl.ini, /etc/php/7.0/cli/conf.d/20-zip.ini</additional_php_ini>
           <configuration_file>/etc/php/7.0/cli/php.ini</configuration_file>
           <configuration_options>

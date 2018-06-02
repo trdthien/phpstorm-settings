@@ -7,7 +7,6 @@
       <mapping pattern="messages" type="PLAIN_TEXT" />
       <mapping pattern=".env" type="PLAIN_TEXT" />
       <mapping ext="local" type="PLAIN_TEXT" />
-      <mapping ext="xlf" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
